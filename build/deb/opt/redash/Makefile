@@ -25,6 +25,7 @@ package_install_pre:
 	ln -nfs /opt/redash/.env /opt/redash/current/.env
 
 package_install:
+	. /opt/venv/redash/bin/activate && pip install --upgrade setuptools 
 	. /opt/venv/redash/bin/activate && pip install setproctitle
 	. /opt/venv/redash/bin/activate && pip install -r /opt/redash/current/requirements.txt
 	. /opt/venv/redash/bin/activate && pip install -r /opt/redash/current/requirements_all_ds.txt
