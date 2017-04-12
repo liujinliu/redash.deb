@@ -15,6 +15,7 @@ sudo dpkg -i redash_1.0.1_amd64.deb
 ## should deal with the dependencies by yourself
 ```
 
+
 #### server install
 ```
 ## should be done following this order
