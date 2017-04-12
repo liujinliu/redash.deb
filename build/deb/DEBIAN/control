@@ -1,0 +1,9 @@
+Package: redash
+Version: 1.0.1
+Section: office software
+Priority: optional
+Architecture: amd64
+Essential: no
+Depends: python-dev, curl, build-essential, pwgen, libffi-dev, libssl-dev, libpq-dev, freetds-dev, libsasl2-dev, xmlsec1, supervisor, libmysqlclient-dev, postgresql, redis-server, nginx, python-virtualenv
+Maintainer: liujinliu[liujinliu@lbesec.com]
+Description: you know, redash
